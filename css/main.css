@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* header*/
+.tm-container{
+	max-width: 1200px;
+	margin-left: 20px ;
+
+}
+.tm-container2{
+	max-width: 1200px;
+	margin-left: 10px ;
+
+}
+
+.tm-header{
+	background-color: white;
+}
+.tm-header2{
+	background-color: #4d0019;
+	max-width: 12px 20px;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-logo{
+	float: left;
+}
+
+input[type="text"]{
+	height: 50px;
+	width: 500px;
+	padding-left: 20px;
+	margin-top: 30px;
+	border-radius: 120px;
+}
+
+
+
+
+.tm-nv{
+	float: right;
+}
+
+.tm-nv2 ul{
+	margin-bottom: 0px;
+	margin-top: 0px
+	margin-left: 0px;
+}
+
+.tm-nv2 ul li{
+	display: inline-block;
+}
+
+.tm-nv2 ul li a{
+	padding: 14px 14px;
+	text-decoration: none;
+	color: rgb(248, 236, 236); 
+	line-height: 50px;
+}
+
+.tm-nv2 ul li a:hover{
+	color: #1ad1ff;
+	text-decoration: underline; 
+}
+.home{
+	text-decoration: underline;
+	font-weight: bold;
+	
+
+}
+
+/* section */
+
+p{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h3{
+	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-left: 20px;
+	padding-left: 30px;
+	font-size: 28px;
+}
+h4{
+	padding-top:2px;
+	padding-bottom: 2px; 
+}
+h2{
+	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 28px;
+}
+.tm-section1{
+	padding-top: 150px; 
+	padding-left: 30px;
+	font-size: 36px;
+	background-color: rgb(248, 236, 236);
+	color: #4d1919;
+}
+
+.p1{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px
+}
+.p2{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px
+}
+
+
+
+
+
+.break{
+	height: 50px;
+	background-color: #4d0019;
+}
+.break2{
+	height: 50px;
+	background-color: #4d0019;
+}
+
+
+.tm-article{
+	background: rgb(248, 236, 236);
+	padding: 20px;
+	color: #4d1919;
+}
+.tm-article2{
+	background: rgb(248, 236, 236);
+	padding: 20px;
+	
+	border: 1px solid;
+	color: #4d1919;
+}
+
+
+/*footer*/
+.tm-foot{
+	background: #808080;
+	height: 230px;
+	
+}
+.tm-footer1{
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color: white;
+}
+.tm-footer2{
+	float: right;
+	display: inline-block;
+	margin-top: 40px;
+	padding-top: 25px; 
+	
+}
+.tm-footer2 img{
+	margin-right: 20px;
+}
+.img{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-left: 30px;
+}
